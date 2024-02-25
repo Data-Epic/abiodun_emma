@@ -1,0 +1,47 @@
+a. How can you declare variables of different data types in Python? Create examples for
+string, integer, float, list, tuple, set, and dictionary. Then, find out and print their types
+
+Assigning values to variables in Python is a fundamental concept. It allows you to store and manipulate data within your code.
+To assign a value to a variable, you can use the assignment operator “=”.
+The name of the variable is the operand to the left of the = operator, and the value stored in the variable is the operand to the right of the = operator.
+
+number = 100          # An integer assignment
+score   = 98.5          # A floating point
+name    = "Prince"          # A String
+fooditem = [yam, rice, beans] # A List
+colour = (red, black, green) # A Tuple
+games = {cycling, soccer, swimming} # A Set
+numbers = {1: “a”, 2: “b”, 3: “c”, 4: “d”, 5: “e”} # A Dictionary
+
+b.Given the string "Python Mentorship Program", can you reverse its characters, change it to
+uppercase, and substitute "Python" with another word of your choice? Show how.
+
+# Reverse the string "Python Mentorship Program"
+typ = "Python Mentorship Program"[::-1]
+print(txyp)
+
+#Uppercase
+filex = "Python Mentorship Program"
+
+y = filex.upper()
+
+print(y)
+
+#Substitute
+txt = "Python Mentorship Program"
+
+x = txt.replace("Python", "Christian")
+
+print(x)
+
+c. With the initial list [1, 2, 3, 4, 5], how would you append an element, remove an element,
+and extend it with another list [7, 8, 9]?
+
+a_list = [1, 2, 3, 4, 5]
+for i in range(7, 8, 9):
+    a_list.append(i)
+
+fruits = ['apple', 'banana', 'cherry']
+
+fruits.remove("banana")
+
