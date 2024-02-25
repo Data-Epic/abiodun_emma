@@ -45,3 +45,63 @@ fruits = ['apple', 'banana', 'cherry']
 
 fruits.remove("banana")
 
+d.If you have a tuple (10, 20, 30), how can you unpack its values into separate variables?
+
+number = (10, 20, 30)
+
+(even, even, odd) = number
+
+e. Given two sets {1, 2, 3, 4} and {3, 4, 5, 6}, how would you perform and display the results
+of their union, intersection, and difference operations?
+
+x = {1, 2, 3, 4}
+y = {3, 4, 5, 6}
+
+Union : [1, 2, 3, 4, 5, 6]
+Intersection : [4]
+Difference : [1, 2, 3, 5, 6]
+
+
+f. How can you manipulate a dictionary {'name': 'John', 'age': 25, 'city': 'New York'} to add,
+update, and remove key-value pairs? Illustrate this by adding 'occupation': 'Engineer',
+changing 'age' to 26, and removing the key 'city'.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+g.What are the ways to convert the string "123" into an integer and the list [1, 2, 3] into a
+set? Demonstrate your approach.
+
+#CONVERTING STRING INTO AN INTEGER
+
+# Initialising a string
+string = "123"
+
+# Show the Data type
+print(type(string))
+
+# Converting string into int
+string_to_int = int(string)
+
+# Show the Data type
+print(type(string_to_int))
+
+
+h. With variables x = 5 and y = 10, how can you execute and display the results of basic
+arithmetic operations and exponentiation between them?
+
+#Arithmetic Operations
+
+
+
+
